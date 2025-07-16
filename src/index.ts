@@ -25,6 +25,18 @@ app.get('/health', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    message: 'Bitespeed Identity Reconciliation Service',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      identify: 'POST /identify'
+    },
+    docs: 'https://github.com/DishankChauhan/BiteSpeed-assignment'
+  });
+});
+
 app.post('/identify', identityController);
 
 app.use('*', (req, res) => {
