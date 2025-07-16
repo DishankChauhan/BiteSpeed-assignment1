@@ -137,12 +137,10 @@ Run the test script:
 ./test_api.sh
 ```
 
-## Deployment
 
-Can be deployed to Render, Heroku, Railway, or any Node.js hosting platform. Set DATABASE_URL environment variable for production database.
 
 ## Assignment submission
 
-- Repository: https://github.com/[username]/identity-reconciliation-service
-- Demo: https://your-app.render.com
+- Repository: https://github.com/DishankChauhan/BiteSpeed-assignment
+- Demo: TBD after deployment
 - Date: July 2025
