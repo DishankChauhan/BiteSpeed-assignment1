@@ -142,5 +142,5 @@ Run the test script:
 ## Assignment submission
 
 - Repository: https://github.com/DishankChauhan/BiteSpeed-assignment
-- Demo: TBD after deployment
+- Demo: https://bitespeed-assignment1-2.onrender.com
 - Date: July 2025
